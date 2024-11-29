@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add to Cart</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" />
+    <!--  CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+     <!-- <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">BrandName</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+      
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">  -->
+              <!-- <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li> -->
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li> -->
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li> -->
+             <!-- </ul>
+            <a href="cart.html" class="btn btn-outline-primary ms-3"> <i class="fa-solid fa-cart-plus"></i> Cart </a>
+          </div>
+        </div>
+      </nav>
+    </header>  -->
+
+
+    
+    <nav class="navbar navbar navbar-expand-md"
+        style="background: linear-gradient(90deg, rgba(108,48,6,0.9332107843137255) 8%, rgba(153,88,42,1) 64%);"> 
+        <div class="container">
+            <a href="" class="navbar-brand"> <img src="images/logo.png"
+                    style="width: 120px; height: 70px;object-fit: contain;" alt=""></a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#click">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between text-white" id="click">
+                <ul class="navbar-nav mx-auto ">
+                    <li class="nav-item"><a href="" class="nav-link text-white">HOME</a></li>
+                    <li class="nav-item dropdown"><a href="" class="nav-link dropdown-toggle text-white"
+                            data-bs-toggle="dropdown">SHOP</a>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <ul class="dropdown-menu bg-danger text-white">
+                                    <li class="dropdown-item navbar-nav text-white"> <a href="" class="nav-link">VESU</a></li>
+                                    <li class="dropdown-item navbar-nav text-white"> <a href="" class="nav-link">ADAJAN</a></li>
+                                    <li class="dropdown-item navbar-nav text-white"> <a href="" class="nav-link">CITYLIGHT</a></li>
+                                    <li class="dropdown-item navbar-nav text-white"> <a href="" class="nav-link">BESTAN</a></li>
+                                    <li class="dropdown-item navbar-nav text-white"> <a href="" class="nav-link">PIPLOD</a></li>
+                                </ul>
+
+                                <ul class="dropdown-menu bg-danger">
+                                    <li class="dropdown-item navbar-nav"> <a href="" class="nav-link">About </a></li>
+                                    <li class="dropdown-item navbar-nav"> <a href="" class="nav-link">About </a></li>
+                                    <li class="dropdown-item navbar-nav"> <a href="" class="nav-link">About </a></li>
+                                    <li class="dropdown-item navbar-nav"> <a href="" class="nav-link">About </a></li>
+                                    <li class="dropdown-item navbar-nav"> <a href="" class="nav-link">About </a></li>
+                                </ul>
+
+
+                            </div>
+                            <div class="col-lg-4">
+                                <ul class="dropdown-menu bg-danger">
+                                    <li class="dropdown-item navbar-nav"> <a href="" class="nav-link">About 1</a></li>
+                                    <li class="dropdown-item navbar-nav"> <a href="" class="nav-link">About 2</a></li>
+                                    <li class="dropdown-item navbar-nav"> <a href="" class="nav-link">About 3</a></li>
+                                    <li class="dropdown-item navbar-nav"> <a href="" class="nav-link">About 4</a></li>
+                                    <li class="dropdown-item navbar-nav"> <a href="" class="nav-link">About 5</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-4">
+                                <ul class="dropdown-menu bg-danger">
+                                    <li class="dropdown-item navbar-nav"> <a href="" class="nav-link">About 1</a></li>
+                                    <li class="dropdown-item navbar-nav"> <a href="" class="nav-link">About 2</a></li>
+                                    <li class="dropdown-item navbar-nav"> <a href="" class="nav-link">About 3</a></li>
+                                    <li class="dropdown-item navbar-nav"> <a href="" class="nav-link">About 4</a></li>
+                                    <li class="dropdown-item navbar-nav"> <a href="" class="nav-link">About 5</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- <li class="nav-item"><a href="" class="nav-link">SHOP</a></li> -->
+                    <li class="nav-item"><a href="" class="nav-link text-white">PRODUCT</a></li>
+                    <li class="nav-item"><a href="" class="nav-link text-white">BLOG</a></li>
+                    <li class="nav-item"><a href="" class="nav-link text-white">PAGE</a></li>
+                    <div class="float-end">
+                        <button class="btn  ms-2 border text-white" data-bs-toggle="offcanvas"
+                            data-bs-target="#off" style="background-color: none;">About</button>
+                        <button class="btn border text-white ms-2" data-bs-toggle="modal" data-bs-target="#mod" style="background-color: none;">Special Offers</button>
+                    </div>
+                    <li>
+                    <a href="cart.html" class="btn btn-outline-light ms-3"> <i class="fa-solid fa-cart-plus"></i> Cart </a>
+                      </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- Main Section -->
+
+    <main>
+      <section id="products" class="productContainer"></section>
+    </main>
+
+    <!-- Footer -->
+    <!-- <footer class="bg-dark text-white py-3">
+      <div class="container text-center">
+        <p>&copy; 2024 BrandName. All Rights Reserved.</p>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#" class="text-white">Privacy Policy</a></li>
+          <li class="list-inline-item"><a href="#" class="text-white">Terms of Service</a></li>
+        </ul>
+      </div>
+    </footer> -->
+
+    
+<section class="footer bg-dark text-white pt-3">
+  <div class="container">
+  <div class="row">
+  <div class="col-lg-3">
+      <div class="ms-4">
+          <img src="image/logo.png" alt="" class="w-50">
+      </div>
+      <div class="ms-4">
+          <p>Rains HQ, Jens Olsens Vej 13 ,8200
+              Aarhus Nandini, Denmark</p>
+             <p class="fs-6"> <span class="fw-1"> Email:</span> dowecoshop@gmail.com</p>
+             <p class="fs-6"> Phone: (+84) 123 567 712</p>
+      </div>
+
+  </div>
+  <div class="col-lg-3">
+      <h3>About Us</h3>
+      <ul class="navbar-nav">
+          
+          <li class="nav-item">Our Shops</li>
+          <li class="nav-item">Contact</li>
+          <li class="nav-item">Artist</li>
+          <li class="nav-item">Local Giving</li>
+          <li class="nav-item">Press</li>
+          <!-- <li>kjfgkdfj</li> -->
+      </ul>
+  </div>
+  <div class="col-lg-3">
+      <h3>Get Help</h3>
+      <ul class="navbar-nav">
+          
+          <li class="nav-item">Delivery Information</li>
+          <li class="nav-item">Terms and Condition</li>
+          <li class="nav-item">Returns and Refund</li>
+          <li class="nav-item">Privacy Notice</li>
+          <li class="nav-item">Shopping FAQs</li>
+          <!-- <li>kjfgkdfj</li> -->
+      </ul>
+  </div>
+  <div class="col-lg-3">
+      <h3>Subscribe to our Newsletter !</h3>
+      <p>Don’t miss the latest news on brands and products…!</p>
+
+      <div class="d-flex">
+          <input type="text" placeholder="Your Email id .." class="p-1 border border-white " style="background: transparent;border-radius: 10px;"><button class="btn bg-danger text-white ms-3">Send</button>
+      </div>
+      
+      <div class="d-flex mt-2 foot">
+          <button class="rounded-circle px-2 py-1 me-2 "><i class="fa-brands fa-facebook-f"></i></button>
+          <button class="rounded-circle px-2 py-1 me-2"> <i class="fa-brands fa-instagram"></i></button>
+          <button class="rounded-circle px-2 py-1 me-2"><i class="fa-brands fa-x-twitter"></i></button>
+          <button class="rounded-circle px-2 py-1"><i class="fa-brands fa-whatsapp"></i></button>
+
+      </div>
+      <div>
+      <button class="float-end bg-dark p-2 text-white rounded-circle py-2 px-3"><a href="#"><i class="fa-solid fa-arrow-up"></i></a></button>
+</div>
+  </div>
+  </div>
+</div>
+</section>
+
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
